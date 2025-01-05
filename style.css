@@ -1,0 +1,639 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #0a0a23; */
+    color: white;
+}
+
+header {
+    background: #0a0a23;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    position: relative;
+}
+
+nav a:hover {
+    color: #00d8ff;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    color: #333;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.dropdown-menu a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f0f0f0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.cta-buttons a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.cta-buttons .btn-green {
+    background-color: #27ae60;
+    color: white;
+}
+
+.cta-buttons .btn-pink {
+    background-color: #ff4081;
+    color: white;
+}
+/* ==========================section1========== */
+
+.section1{
+    display: flex;
+    gap: 30px;
+    padding: 20px 7px;
+}
+.section1 > h2{
+    font-size: 17px;
+    font-weight: 540;
+}
+/* ============================section2================= */
+
+.section2{
+    display: flex;
+    padding: 5% 2%;
+    gap: 20px;
+}
+
+.left-sec{
+    width: 60%;
+}
+.left-sec > h1{
+    font-size: 140px;
+   line-height: 90%;
+}
+.left-sec > h3{
+    padding: 20px 0;
+    color: #5BD3FB;
+    font-size: 30px;
+}
+.left-sec > .p1{
+    color: rgb(154, 144, 144);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.left-sec > .p1 > span{
+    color: white;
+}
+.p2{
+    color: rgb(154, 144, 144);
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 50px;
+}
+
+.btn{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding: 10px 20px ;
+    font-size: 18px;
+    background-color: #36b551;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.right-sec{
+    width: 50%;
+}
+
+.right-sec > img{
+    width: 100%;
+    box-shadow: 1px 1px 25px #CA7CC0;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+/* ======================section3============= */
+
+.section3 {
+    color: rgb(128, 121, 121);
+    margin-top: -4%;
+    padding: 0 3%;
+}
+.section3 > h3{
+    color: white;
+   padding-bottom: 23px;
+   margin-top: -6%;
+   font-size: 25px;
+   font-weight: 550;
+}
+.box{
+    display: flex;
+    gap: 25px;
+ 
+}
+.box1{
+    background-color: #FDF7FA;
+    padding: 30px 0;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 50px;
+    border: 2px solid #B76A9D;
+    /* border-color: #B76A9D; */
+}
+
+.box1 > i{
+    font-size: 25px;
+    color: #B76A9D;
+}
+.box1 > h3{
+    padding: 7px 0;
+    color: black;
+}
+.box1 > h4{
+ padding-top: 10px;
+    color: #6B8FB7;
+}
+
+.section3-text{
+    margin: 5% 3%;
+}
+.section3-text > h1{
+    font-size: 60px;
+    color: black;
+    font-weight: 700;
+}
+
+.box2 {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    margin: 8% 3%;
+}
+
+.box2-box{
+    display: flex;
+    width: 50%;
+    background-color: #FBEEF5;
+  padding: 10px 20px ;
+  border-radius: 10px;
+}
+.h2-img > h2{
+    font-size: 24px;
+    padding: 20px 0px;
+    color: black;
+}
+
+.boxleft-text > p{
+     padding-top: 30%;
+     padding-left: 20px;
+}
+
+.h2-img > img{
+    width: 200px;
+}
+
+/* ====================section4============== */
+
+.section4{
+    display: flex;
+    
+    background-color: black;
+    padding: 7% 5%;
+   justify-content: space-between;
+   width: 100%;
+} 
+.sec4-content{
+    width: 60%;
+}
+.button{
+    padding: 5px 12px ;
+    background-color: #EBA3C7;
+    border: none;
+    border-radius: 5px;
+}
+.sec4-content1 > h1{
+    font-size: 50px;
+    padding: 5px 0;
+}
+.sec4-content1 > h3{
+    font-size: 25px;
+    padding: 15px 0;
+    color: #83439B;
+}
+.sec4-content1 > p{
+    line-height: 25px;
+    color: #f1daea;
+}
+.btn1{
+    padding: 10px 20px ;
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: 550;
+    border: none;
+    border-radius: 5px;
+    background-color: #83439B;
+    color: white;
+}
+.sec4-content2{
+    width: 40%;
+} 
+
+.sec4-content2 > img{
+    width: 100%;
+    /* padding: 10px; */
+}
+
+/* =====================section5============= */
+
+.section5{
+     display: flex;
+     gap:30px ;
+     padding: 8% 3%;
+     justify-content: space-between;
+     color: black;
+     background-color: #1C496B;
+     /* align-items: center; */
+}
+
+.sec5-con{
+    width: 80%;
+}
+.sec5-con > h1{
+    font-size: 50px;
+    padding: 20px 3px ;
+    color: #5BD3FB;
+}
+.sec5-con > p{
+  color: white;
+  line-height: 30px;
+  padding: 10px 4px;
+}
+.sec5-con > img {
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px #5482a8;
+    
+}
+
+/* =====================section6=========== */
+.section6{
+    width: 100%;
+}
+.section6 > h1{
+      font-size: 80px;
+      color: black;
+      padding: 20px 30px;
+}
+
+.sec6-con{
+    display: flex;
+    gap: 30px;
+    color: black;
+    padding: 3% 3%;
+}
+.sec6{
+    padding: 30px 20px;
+    width: 50%;
+    border-radius: 5px;
+}
+.text1{
+    background-color: #E3F6FD;
+}
+.text2{
+    background-color: #FEEDE8;
+}
+
+.sec6 > span{
+    font-size: 50px;
+    background-color: black;
+    font-weight: 800;
+    padding: 0 20px;
+    color: white;
+   margin-bottom: 5%;
+   border-radius: 5px;
+}
+
+.sec6 > h1{
+    padding: 10px 0;
+}
+.sec6 > h3{
+    line-height: 27px;
+    padding-bottom: 30px;
+}
+.sec6 > p{
+   padding-bottom: 20px;
+
+}
+
+.sec6 > a{
+    font-weight: 700;
+    font-size: 16px;
+}
+.btn3{
+    padding: 10px 20px ;
+    border: none;
+    background-color: #27ae60;
+    color: white;
+   margin-left: 40%;
+   font-size: 16px;
+   font-weight: 700;
+   border-radius: 5px;
+   
+}
+
+   
+
+
+
+/* ====================footer============ */
+footer{
+    padding: 4% 3%;
+    background-color: black;
+    color: white;
+ margin-top: 10%;
+   
+
+}
+footer > h1{
+  padding: 1px 0;
+}
+footer > h2{
+  
+    padding: 20px 0;
+    font-size: 16px;
+}
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.foo-con1 > h3{
+    padding: 10px 0;
+    color: #B86587;
+    font-size: 25px;
+}
+
+.foo-con1 > p{
+    padding: 6px 0;
+    color: rgb(206, 200, 200);
+}
+
+.foo-con1 > h3 > span{
+    color: blue;
+}
+
+.border{
+    border: 1px solid rgb(155, 149, 149);
+    margin: 30px 0;
+}
+
+/* =======================footer2======== */
+.footer2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.foo2-con{
+    display: flex;
+    
+}
+.foo2-con>p{
+    padding: 15px 20px;
+}
+.foo2-con > h3{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+.foo2-con > a{
+    padding: 10px 20px ;
+    color: white;
+}
+
+/* ===========icon============ */
+.icon > i{
+    font-size: 25px;
+}
+
+/*================== Responsive =========== */
+@media (max-width: 600px) {
+    body{
+        width: 350vw;
+        overflow-x: hidden;
+        
+    }
+    nav{
+        display: none;
+    }
+    
+    .logo{
+        font-size: 40px;
+    }
+    .cta-buttons{
+        display: none;
+    }
+
+    .section1{
+        display: none;
+    }
+    
+    .section2{
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+    .left-sec > h1{
+        font-size: 60px;
+       padding: 20px 0;
+    }
+    .p1{
+        font-size: 25px;
+    }
+    .right-sec{
+        display: none;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .box1{
+        height: 100% ;
+        width: 80%;
+    }
+    .box1 > i{
+        font-size: 30px;
+        padding: 10px 0;
+    }
+    .box1 > h3{
+        font-size: 40px;
+        padding: 15px 0;
+    }
+    .box1 > p{
+        font-size: 30px;
+    }
+    .box1 > h4{
+        font-size: 30px;
+    }
+    .box2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .box2-box{
+        display: flex;
+        flex-direction: column;
+        padding: 2% 5%;
+        width: 80%;
+    }
+    .h2-img > h2{
+        font-size: 40px;
+        padding-bottom: 2%;
+    }
+    .h2-img > img{
+        width:100%;
+    }
+    .boxleft-text > p{
+        font-size: 30px;
+    }
+
+    .section4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .sec4-content1 > h1{
+        font-size: 50px;
+    }
+    .sec4-content1 >h3{
+        font-size: 40px;
+    }
+    .sec4-content1 >p{
+        font-size: 15px;
+    }
+    .btn1{
+        font-size: 30px;
+    }
+    .sec4-content1 > a{
+        font-size: 20px;
+    }
+    .sec4-content2 > img{
+        width: 150%;
+    }
+
+    .section5{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec5-con >p{
+        font-size: 18px;
+    }
+
+    .sec6-con{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .sec6 {
+        width: 100%;
+        height: 100%;
+    }
+    .btn3{
+        font-size: 30px;
+       margin-right: 25%;
+    }
+    footer > h1{
+        font-size: 60px;
+    }
+    footer > h2{
+        font-size: 30px;
+    }
+    .table{
+        display: flex;
+        flex-direction: column;
+      align-items: start;
+      gap: 30px;
+    }
+    .foo-con1 > h3{
+        font-size: 30px;
+    }
+    .foo-con1 > p{
+        font-size: 30px;
+    }
+    
+    .foo2-con{
+        display: flex;
+        flex-direction: column;
+    }
+    .foo2-con > p{
+        font-size: 30px;
+    }
+    .footer2{
+        display: flex;
+        flex-direction: column;
+    }
+}
