@@ -24,6 +24,9 @@ header {
     align-items: center;
     border-bottom: 1px solid white;
 }
+header i{
+    display: none;
+}
 .container{
     overflow: hidden;
     width: 100%;
@@ -491,9 +494,12 @@ footer > h2{
     nav{
         display: none;
     }
-    
+    header i{
+        display:inline;
+        font-size: 24px;
+    }
     .logo{
-        font-size:25px;
+        font-size:30px;
     }
     .cta-buttons{
         display: none;
@@ -509,8 +515,8 @@ footer > h2{
         margin-left: 20px;
     }
     .left-sec > h1{
-        font-size: 60px;
-        line-height: 65px;
+        font-size: 70px;
+        line-height: 70px;
        padding: 20px 0;
     }
     .p1{
@@ -606,13 +612,14 @@ footer > h2{
         font-size: 18px;
     }
     .btn1{
-        font-size: 30px;
+        font-size:18px;
     }
     .sec4-content1 > a{
         font-size: 22px;
     }
     .sec4-content2 > img{
-        width: 150%;
+        width: 200%;
+        margin-left: -70px;
     }
 
     .section5{
@@ -648,8 +655,7 @@ footer > h2{
        margin-left: 3%;
     }
     footer{
-        margin-bottom: 140px;
-        padding-bottom: 50px;
+        padding-bottom: 70px;
     }
     footer > h1{
         font-size: 50px;
